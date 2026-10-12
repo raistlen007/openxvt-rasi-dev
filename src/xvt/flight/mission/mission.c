@@ -441,7 +441,7 @@ void Mission_UpdateLogic(void) {
 						trigger2Result = 0;
 					}
 					if (condition4 == MISSION_COND_NO_CONDITION) {
-						pair1Result =
+						pair2Result =
 							(trigger1Result & 1) != 0
 								? GOAL_STATE_SUCCESS
 								: ((trigger1Result & 2) != 0 ? GOAL_STATE_FAILURE : GOAL_STATE_PENDING);
